@@ -337,26 +337,9 @@ padding-left: 30px;
 position: relative;
 }
 
-.portfolio-text2 li  {
-margin: 10px 5px 10px ;
-font-size: 21px;
-list-style-type: none;
-}
-
 .portfolio-title, .portfolio-subtitle {
 	text-align: center;
 }
-
-.portfolio-col-1 {
-	padding-left: 40px;
-	padding-right: 10px;
-}
-
-
-.portfolio-col-2 {
-		padding-left: 10px;
-		padding-right: 40px;
-	}
 
 .portfolio-block h3{
 color: #072B6F;
