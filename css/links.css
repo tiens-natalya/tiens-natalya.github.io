@@ -1,17 +1,31 @@
 /*******************Tooltip*********************/
 /*******Текстовая область*******/
-.tooltip-inner {
+.tooltip-inner {         
     max-width: 250px;
     padding: 10px 10px;
     color: #fff;
-    text-align: left;
+    text-align: center;
     background-color: #000;
     border-radius: 4px;
-    position: relative;
     left: -15px;
+    top:-5px;
     position: relative;
-
 }
+
+@media (max-width: 576px) {
+.tooltip-inner{
+ max-width: 150px;
+ max-height: 600px;
+   }
+  }
+
+  @media (max-width: 768px) {
+.tooltip-inner{
+ max-width: 150px;
+   }
+  }
+
+
 
 .tooltip {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -32,21 +46,25 @@
     position: absolute;
 }
 /*******Треугольник текстовой области*******/
-.tooltip.top .tooltip-arrow {
+.tooltip.top .tooltip-arrow {     
 
     bottom: 0;
-    left: 50%;
+    left: 48%;
+    bottom: 5px;
     margin-left: -21px;
     border-width: 5px 5px 0;
     border-top-color: #000;
 
 }
 
+.glyphicon{
+top: -5px;
+left: -5px; 
+}
+
+
 #infoIcon:hover{
 color: #C6001E;
-box-sizing: border-box;
-box-shadow: 0px 0px 0px 1px rgb(224, 218, 35);
-border-radius: 50px;
 }
 
 /*******************End Tooltip************************/
