@@ -1,5 +1,5 @@
 /*******************Tooltip*********************/
-
+/*******Текстовая область*******/
 .tooltip-inner {
     max-width: 250px;
     padding: 10px 10px;
@@ -9,6 +9,7 @@
     border-radius: 4px;
     position: relative;
     left: -15px;
+    position: relative;
 
 }
 
@@ -28,17 +29,19 @@
     word-wrap: normal;
     white-space: normal;
     line-break: auto;
+    position: absolute;
 }
-
+/*******Треугольник текстовой области*******/
 .tooltip.top .tooltip-arrow {
 
     bottom: 0;
     left: 50%;
-    margin-left: -20px;
+    margin-left: -21px;
     border-width: 5px 5px 0;
     border-top-color: #000;
 
 }
+
 #infoIcon:hover{
 color: #C6001E;
 }
