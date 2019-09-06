@@ -1,4 +1,46 @@
+/*******************Tooltip*********************/
 
+.tooltip-inner {
+    max-width: 250px;
+    padding: 10px 10px;
+    color: #fff;
+    text-align: left;
+    background-color: #000;
+    border-radius: 4px;
+    position: relative;
+    left: -15px;
+
+}
+
+.tooltip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: left;
+    text-align: start;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    white-space: normal;
+    line-break: auto;
+}
+
+.tooltip.top .tooltip-arrow {
+
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+
+}
+
+/*******************End Tooltip************************/
 .links  {
   margin: auto;
   width: 80%;
