@@ -340,7 +340,7 @@ position: relative;
 .portfolio-text2 li  {
 margin: 10px 5px 10px ;
 font-size: 21px;
-list-style-type: disc;
+list-style-type: none;
 }
 
 .portfolio-title, .portfolio-subtitle {
