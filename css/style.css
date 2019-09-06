@@ -314,7 +314,7 @@ background-color: #fff;
 	margin: 10px 10px;
 font-size: 21px;
 text-align: left;
-list-style-type: circle;
+list-style-type: none;
 	 }
 	}
 
@@ -329,7 +329,7 @@ ul li {
 margin: 20px 10px 10px;
 font-size: 21px;
 text-align: left;
-list-style-type: disc;
+list-style-type: none;
 }
 
 ul{
