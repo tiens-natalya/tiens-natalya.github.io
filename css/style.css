@@ -546,13 +546,6 @@ font-size: 30px;
 }
 
 @media (max-width: 992px) {
-.header-title{
-display: none; 
-}
-}
-
-
-@media (max-width: 992px) {
 .footer-author{
 margin-top: 0;	
 }	
