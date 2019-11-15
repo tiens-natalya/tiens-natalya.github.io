@@ -1,6 +1,6 @@
 /*******************Tooltip*********************/
-/*******Текстовая область*******/
-.tooltip-inner {         
+
+.tooltip-inner {         /*******Текстовая область*******/
     max-width: 250px;
     padding: 10px 10px;
     color: #fff;
@@ -14,7 +14,7 @@
 
 @media (max-width: 576px) {
 .tooltip-inner{
- max-width: 150px;
+ max-width: 200px;
    }
   }
 
@@ -44,13 +44,13 @@
     line-break: auto;
     position: absolute;
 }
-/*******Треугольник текстовой области*******/
-.tooltip.top .tooltip-arrow {     
+
+.tooltip.top .tooltip-arrow {     /*******Треугольник текстовой области*******/
 
     bottom: 0;
     left: 48%;
     bottom: 5px;
-    margin-left: -21px;
+    margin-left: -24px;
     border-width: 5px 5px 0;
     border-top-color: #000;
 
@@ -67,7 +67,9 @@ color: #C6001E;
 }
 
 /*******************End Tooltip************************/
-.links  {
+
+
+.links2  {
   margin: auto;
   width: 80%;
 }
@@ -75,6 +77,7 @@ a {
   text-decoration: none;
   position: relative;
 }
+
 
 .center a::before {
   content: '';
@@ -134,13 +137,18 @@ border-bottom: none;
 }
 
     .portfolio-block a {
-/*color: #072b6f;*/
-color: #fff;
+/*color: #072b6f;
+color: #fff;*/
 font-weight: 400;
 text-decoration: none;
 /*display: table; ширина по тексту в заголовке*/
 /*border-bottom: 2px solid #c32017;/*амо подчеркивание*/
 line-height: 21px;/*высота строки, ну и соответственно отступ от подчеркивания*/
+}
+
+p.links3{
+display: flex;
+justify-content: center;
 }
 
 a.support{
@@ -174,4 +182,21 @@ a.footertel{
 
 a.footertel:hover{
 color: #FFC411
+}
+
+
+p.links{
+padding-top: 20px;
+color: #333333; 
+} 
+
+a.links2{ 
+color: #6C2192;
+font-size: 21px;
+font-weight: bold;  
+}
+
+a.links2:hover {  
+color: #0C910C;
+text-decoration: none;  
 }
