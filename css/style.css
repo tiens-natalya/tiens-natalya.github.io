@@ -28,10 +28,12 @@ header {
 
 /*Код ВСПЛЫВАЮЩЕЙ ПОДСКАЗКИ */
 /* задаем относительное позиционирование контейнеру */
-.block{position:relative;}
+.block {
+position:relative;
+}
 /* Оформление скрытого элемента по умолчанию */ 
-.hidden
-{display: none;
+.hidden {
+display: none;
 position: absolute;
 bottom: 130%;
 left: 0px;
@@ -42,7 +44,11 @@ text-align: center;
 -moz-box-shadow: 0 1px 1px rgba(0,0,0,.16);
 -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.16);
 box-shadow: 0 1px 1px rgba(0,0,0,.16);
-font-size: 12px;}
+font-size: 12px;
+}
+.focus:focus + .hidden {
+	display: block;
+}
 /* Дополнительное оформление скрытого элемента(необязательно) */
 /*
 .focus + .hidden:before
@@ -76,7 +82,7 @@ border-right: 7px solid #fff;
 border-color: rgba(0,0,0,.16) transparent transparent transparent;
 z-index: 1;} */
 /* Появление скрытого элемента при клике */
-.focus:focus + .hidden{display: block;}
+
 
 /*КОНЕЦ Кода ВСПЛЫВАЮЩЕЙ ПОДСКАЗКИ */
 
