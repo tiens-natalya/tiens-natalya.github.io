@@ -44,6 +44,7 @@ text-align: center;
 box-shadow: 0 1px 1px rgba(0,0,0,.16);
 font-size: 12px;}
 /* Дополнительное оформление скрытого элемента(необязательно) */
+/*
 .focus + .hidden:before
 {content: " ";
 position: absolute;
@@ -57,8 +58,9 @@ width: 0;
 border: 7px solid transparent;
 border-right: 7px solid #fff;
 border-color: #fff transparent transparent transparent;
-z-index: 2;}
+z-index: 2;}    */
 /* Дополнительное оформление скрытого элемента(необязательно) */
+/*
 .focus + .hidden:after
 {content: " ";
 position: absolute;
@@ -72,7 +74,7 @@ width: 0;
 border: 7px solid transparent;
 border-right: 7px solid #fff;
 border-color: rgba(0,0,0,.16) transparent transparent transparent;
-z-index: 1;}
+z-index: 1;} */
 /* Появление скрытого элемента при клике */
 .focus:focus + .hidden{display: block;}
 
